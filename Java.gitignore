@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# added target folder -HC
+/target/
+
+# IDE specific files (VS Code, IntelliJ, Eclipse)
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+.classpath
+.project
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot logs
+logs/

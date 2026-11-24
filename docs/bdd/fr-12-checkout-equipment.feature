@@ -9,7 +9,7 @@ Feature: Checkout Equipment
     And an authorized staff member is processing the checkout
     When the staff member checks out equipment 110 to the student
     Then the system creates a checkout record
-    And records the checkout date and due date
+    And records the checkout date and the due date
     And changes the equipment status to CHECKED_OUT
     And generates a checkout notification
 
